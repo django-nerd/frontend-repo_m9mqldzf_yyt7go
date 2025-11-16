@@ -1,3 +1,4 @@
+import TopBanner from './components/TopBanner'
 import Hero from './components/Hero'
 import HowItWorks from './components/HowItWorks'
 import Showcase from './components/Showcase'
@@ -11,6 +12,7 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className="min-h-screen bg-black text-white">
+      <TopBanner />
       <Hero />
       <HowItWorks />
       <Showcase />

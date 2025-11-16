@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion'
-import Spline from '@splinetool/react-spline'
+import SafeSpline from './SafeSpline'
 import { TelegramIcon } from './icons/TelegramIcon'
 
 export default function Hero() {
   return (
     <section className="relative min-h-[90vh] w-full overflow-hidden bg-black text-white">
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/vi0ijCQQJTRFc8LA/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        <SafeSpline scene="https://prod.spline.design/vi0ijCQQJTRFc8LA/scene.splinecode" style={{ width: '100%', height: '100%' }} />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/60 via-black/60 to-black" />
       </div>
 
